@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>$(FrameworkTargetVersion)</TargetFramework>
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\Client\ServiceBus.Client.csproj" />
+    <ProjectReference Include="..\Client.Sample.Common\Client.Sample.Common.csproj" />
+  </ItemGroup>
+
+</Project>

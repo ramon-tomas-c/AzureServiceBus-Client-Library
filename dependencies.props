@@ -1,0 +1,25 @@
+<Project>
+  <PropertyGroup Label="SDK Versions">
+    <NetStandardTargetVersion>netstandard2.1</NetStandardTargetVersion>
+    <FrameworkTargetVersion>netcoreapp3.1</FrameworkTargetVersion>
+    <TestSdk>16.5.0</TestSdk>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package information">
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>true</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <PropertyGroup Label="Package Versions">
+    <AzureServiceBus>4.1.2</AzureServiceBus>
+    <IdentityModel>4.1.1</IdentityModel>
+    <MicrosoftCSharp>4.7.0</MicrosoftCSharp>
+    <ExtensionsDependencyInjection>3.1.3</ExtensionsDependencyInjection>
+    <XUnit>2.4.1</XUnit>
+    <XUnitRunner>2.4.1</XUnitRunner>
+    <CoverletCollector>1.2.0</CoverletCollector>
+    <FluentAssertions>5.10.3</FluentAssertions>
+    <TestSupport>2.0.0</TestSupport>
+    <Moq>4.13.1</Moq>
+    <Scrutor>3.2.0</Scrutor>
+  </PropertyGroup>
+</Project>

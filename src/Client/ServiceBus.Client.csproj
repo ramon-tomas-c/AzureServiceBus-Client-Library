@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>$(NetStandardTargetVersion)</TargetFramework>
+    <Description>Message Bus contracts to publish and handle events</Description>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityModel" Version="$(IdentityModel)" />
+    <PackageReference Include="Microsoft.Azure.ServiceBus" Version="$(AzureServiceBus)" />
+    <PackageReference Include="Microsoft.CSharp" Version="$(MicrosoftCSharp)" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="$(ExtensionsDependencyInjection)" />
+    <PackageReference Include="Scrutor" Version="$(Scrutor)" />
+  </ItemGroup>
+
+</Project>
