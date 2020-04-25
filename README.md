@@ -1,4 +1,4 @@
-# AzureServiceBus-Client
+# AzureServiceBus Client Library
 The solution contains an Azure ServiceBus Client library which supports Sas token managing and an API to provide authorization in ServiceBus
 
 # ServiceBus Client
