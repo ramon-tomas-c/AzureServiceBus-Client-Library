@@ -5,7 +5,7 @@ The solution contains an Azure ServiceBus Client library which supports Sas toke
 
 ## Overview
 
-This libraries can be used in two modes currently: as an events publisher or as an events consumer. 
+The library can be used in two modes currently: as an events publisher or as an events consumer. 
 
 ## How to publish events
 
