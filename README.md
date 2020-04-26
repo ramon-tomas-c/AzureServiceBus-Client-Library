@@ -1,5 +1,5 @@
 # AzureServiceBus Client Library
-The solution contains an Azure ServiceBus Client library which supports Sas token managing and an API to provide authorization in ServiceBus
+The solution contains an Azure ServiceBus Client library which supports Sas token managing and an API to provide custom authorization in ServiceBus
 
 # ServiceBus Client
 
@@ -7,7 +7,7 @@ The solution contains an Azure ServiceBus Client library which supports Sas toke
 
 This libraries can be used in two modes currently: as an events publisher or as an events consumer. 
 
-## How to use to publish events
+## How to publish events
 
 To use it as an event publisher register as event publisher and provide access details to Azure Service Bus:
 
@@ -29,6 +29,16 @@ To use it as an event publisher register as event publisher and provide access d
         return serviceBusOptions;
     })
 ```
+Options:
+``` 
+TopicName: ServiceBus Topic Name
+PolicyName: ServiceBus Policy Name
+TokenProviderUri: OAuth authority Uri
+ClientId: OAuth client Id for ServiceBus API
+ClientSecret: OAuth client secret for ServiceBus API
+Scope: OAuth scope for ServiceBus API
+ServiceBusApiEndpoint: ServiceBus API Uri
+```
 
 You can now resolve an `IEventBus` and use it to asynchronously publish any event to the bus
 
@@ -38,7 +48,7 @@ await eventBus.Publish(eventSample);
 await eventBus.Publish(anotherEventSample);
 ```
 
-## How to use to consume events
+## How to consume events
 
 To use it as an event consumer implement event handlers for the specific events to subscribe
 
@@ -85,6 +95,17 @@ Also register the name of the topic to receive the messages and access details t
     typeof(EventOneHandler).GetTypeInfo().Assembly)
 ```
 
+Options:
+``` 
+TopicName: ServiceBus Topic Name
+PolicyName: ServiceBus Policy Name
+SubscriptionName: ServiceBus Subscription Name
+TokenProviderUri: OAuth authority Uri
+ClientId: OAuth client Id for ServiceBus API
+ClientSecret: OAuth client secret for ServiceBus API
+Scope: OAuth scope for ServiceBus API
+ServiceBusApiEndpoint: ServiceBus API Uri
+```
 You can now resolve an `IEventConsumerBusManager` and use it to start the connection to start listening from the specific subscription. 
 
 ``` 
