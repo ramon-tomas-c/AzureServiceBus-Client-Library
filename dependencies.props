@@ -1,6 +1,7 @@
 <Project>
   <PropertyGroup Label="SDK Versions">
     <NetStandardTargetVersion>netstandard2.1</NetStandardTargetVersion>
+    <NetCoreTargetVersion>netcoreapp3.1</NetCoreTargetVersion>
     <FrameworkTargetVersion>netcoreapp3.1</FrameworkTargetVersion>
     <TestSdk>16.5.0</TestSdk>
   </PropertyGroup>
@@ -21,5 +22,38 @@
     <TestSupport>2.0.0</TestSupport>
     <Moq>4.13.1</Moq>
     <Scrutor>3.2.0</Scrutor>
+    <MicrosoftVisualStudioAzureContainersToolsTargets>1.9.10</MicrosoftVisualStudioAzureContainersToolsTargets>
+    <MicrosoftVisualStudioWebCodeGenerationDesign>3.1.0</MicrosoftVisualStudioWebCodeGenerationDesign>
+    <SwashbuckleAspNetCore>5.0.0</SwashbuckleAspNetCore>
+    <MicrosoftAzureManagementServiceBus>2.1.0</MicrosoftAzureManagementServiceBus>
+    <MicrosoftAzureManagementServiceBusFluent>1.26.0</MicrosoftAzureManagementServiceBusFluent>
+    <MicrosoftAzureServiceBus>4.0.0</MicrosoftAzureServiceBus>
+	  <MicrosoftEntityFrameworkCore>3.1.1</MicrosoftEntityFrameworkCore>
+	  <MicrosoftExtensionsConfiguration>3.1.1</MicrosoftExtensionsConfiguration>
+	  <MicrosoftExtensionsDependencyInjection>3.1.1</MicrosoftExtensionsDependencyInjection>
+	  <Serilog>2.9.0</Serilog>
+    <SerilogSinksMSSqlServer>5.1.3</SerilogSinksMSSqlServer>
+    <SerilogSinksAzureAnalytics>4.6.0</SerilogSinksAzureAnalytics>
+    <SerilogExtensionsLogging>3.0.1</SerilogExtensionsLogging>
+    <SerilogSettingsConfiguration>3.1.0</SerilogSettingsConfiguration>
+    <SerilogSinksApplicationInsights>3.0.4</SerilogSinksApplicationInsights>
+    <SerilogSinksConsole>3.1.1</SerilogSinksConsole>
+    <SerilogEnrichersEnvironment>2.1.3</SerilogEnrichersEnvironment>
+    <SerilogAspNetCore>3.2.0</SerilogAspNetCore>
+    <SerilogSinksFile>4.1.0</SerilogSinksFile>
+    <HellangMiddlewareProblemDetails>3.1.0</HellangMiddlewareProblemDetails>
+    <MicrosoftAspNetCoreNewtonsoft>3.1.0</MicrosoftAspNetCoreNewtonsoft>
+    <MicrosoftApplicationInsightsAspNetCore>2.12.0</MicrosoftApplicationInsightsAspNetCore>
+    <MicrosoftAspNetCoreHttp>2.2.0</MicrosoftAspNetCoreHttp>
+    <MicrosoftAspNetWebApiClient>5.2.7</MicrosoftAspNetWebApiClient>
+    <MicrosoftAspNetCoreTestHost>3.1.0</MicrosoftAspNetCoreTestHost>
+    <MicrosoftAspNetCoreAuthenticationAzureADUI>3.1.0</MicrosoftAspNetCoreAuthenticationAzureADUI>
+    <MicrosoftAspNetCoreIdentity>2.2.0</MicrosoftAspNetCoreIdentity>
+    <MicrosoftAspNetCoreIdentityEntityFrameworkCore>3.1.1</MicrosoftAspNetCoreIdentityEntityFrameworkCore>
+    <MicrosoftAspNetCoreMvcVersioningExplorer>4.1.0</MicrosoftAspNetCoreMvcVersioningExplorer>
+    <MicrosoftAspNetCoreMvcCore>2.2.2</MicrosoftAspNetCoreMvcCore>
+    <MicrosoftAspNetCoreMvc>2.2.0</MicrosoftAspNetCoreMvc>
+    <FluentValidationAspNetCore>8.6.0</FluentValidationAspNetCore>
+    <FluentValidationValidatorAttribute>8.6.0</FluentValidationValidatorAttribute>
   </PropertyGroup>
 </Project>

@@ -17,6 +17,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Sample.EventConsumer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Client.Sample.EventPublisher", "samples\Client.Sample.EventPublisher\Client.Sample.EventPublisher.csproj", "{63D987FD-FA2F-471E-AFEA-0A488228B38A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Api", "Api", "{400A1CC6-2DFF-4347-93E3-6A89FF9973D6}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "src\WebAPI\WebAPI.csproj", "{D2E52227-195A-403B-8558-6969D026484F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +47,10 @@ Global
 		{63D987FD-FA2F-471E-AFEA-0A488228B38A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{63D987FD-FA2F-471E-AFEA-0A488228B38A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{63D987FD-FA2F-471E-AFEA-0A488228B38A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2E52227-195A-403B-8558-6969D026484F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2E52227-195A-403B-8558-6969D026484F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2E52227-195A-403B-8558-6969D026484F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2E52227-195A-403B-8558-6969D026484F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -53,6 +61,7 @@ Global
 		{73067983-80BF-4BF9-B917-2DD52D604DE1} = {834832C0-D4F0-4487-ACCE-9F8CA69AD52B}
 		{93F88D21-FD31-4777-BB83-39CCB4D0A51A} = {834832C0-D4F0-4487-ACCE-9F8CA69AD52B}
 		{63D987FD-FA2F-471E-AFEA-0A488228B38A} = {834832C0-D4F0-4487-ACCE-9F8CA69AD52B}
+		{D2E52227-195A-403B-8558-6969D026484F} = {400A1CC6-2DFF-4347-93E3-6A89FF9973D6}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {05CCE490-0F81-4221-8E81-4DB4FBC57F0E}
